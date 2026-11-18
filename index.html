@@ -9,94 +9,142 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-     
+
       gtag('config', 'G-9NTQ5J0505');
     </script>
-    <title>LLMers - AI-Powered Language Learning</title>
+    <title>LLMers: learn Dutch from zero to A2+, free</title>
+    <meta name="description" content="63 connected Dutch lessons from A0 to A2+, native audio for every word, and answers you write yourself, checked by Jev. Free web app for any phone or laptop.">
+    <meta name="theme-color" content="#F4EFE6">
+    <link rel="canonical" href="https://llmers.es/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LLMers">
+    <meta property="og:title" content="LLMers: Dutch, from your first hallo to A2+">
+    <meta property="og:description" content="63 lessons, native audio, and corrections that explain. Free, in your browser.">
+    <meta property="og:url" content="https://llmers.es/">
+    <meta property="og:image" content="https://llmers.es/assets/app/desktop.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <button class="logo-btn" onclick="goToHome()">
-                    <img src="image.png" alt="LLMers Logo" class="logo-image">
-                    <div class="logo-text">
-                        <h1>LLMers</h1>
-                        <span>AI Language Learning</span>
-                    </div>
-                </button>
-                <div class="google-play-badge">
-                    <img src="assets/google-play-badge-coming-soon.webp" alt="Coming Soon on Google Play" class="play-badge-img">
-                </div>
-            </div>
-        </div>
-    </header>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/" aria-label="LLMers home">
+      <svg viewBox="0 0 64 64" width="34" height="34" aria-hidden="true"><path d="M8 22c0-8.3 7.6-15 17-15s17 6.7 17 15-7.6 15-17 15c-2 0-3.9-.3-5.7-.9L10 40l2.6-8.3C9.7 29.1 8 25.7 8 22z" fill="#EC6A2A"/><path d="M56 38c0-8.3-7.6-15-17-15S22 29.7 22 38s7.6 15 17 15c2 0 3.9-.3 5.7-.9L54 56l-2.6-8.3C54.3 45.1 56 41.7 56 38z" fill="#2350A8" opacity="0.94"/></svg>
+      <span>LLMers</span>
+    </a>
+    <a class="btn btn-small" href="https://dkealvaro.github.io/LLMers-app/">Open the app</a>
+  </div>
+</header>
 
-    <main>
-        <section class="hero" id="landing-page">
-            <div class="container">
-                <div class="hero-title-container">
-                    <h2>Learn Languages Through Real Conversations</h2>
-                    <button class="arrow-btn" onclick="startLesson()">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                </div>
-                <p>ChatGPT for Language Learning</p>
-                
-                <!-- Screenshots Carousel -->
-                <div class="carousel-container" id="screenshots-carousel">
-                    <div class="carousel-wrapper">
-                        <div class="carousel-track">
-                            <!-- Sliding carousel slides -->
-                            <div class="carousel-slide active" data-slide="1">
-                                <img src="assets/Screenshot 1.png" alt="App Screenshot 1" class="carousel-image">
-                            </div>
-                            <div class="carousel-slide" data-slide="2">
-                                <img src="assets/Screenshot 2.png" alt="App Screenshot 2" class="carousel-image">
-                            </div>
-                            <div class="carousel-slide" data-slide="3">
-                                <img src="assets/Screenshot 3.png" alt="App Screenshot 3" class="carousel-image">
-                            </div>
-                            <div class="carousel-slide" data-slide="4">
-                                <img src="assets/Screenshot 4.png" alt="App Screenshot 4" class="carousel-image">
-                            </div>
-                            <div class="carousel-slide" data-slide="5">
-                                <img src="assets/Screenshot 5.png" alt="App Screenshot 5" class="carousel-image">
-                            </div>
-                        </div>
-                        <div class="carousel-dots">
-                            <span class="dot active" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
-                            <span class="dot" onclick="currentSlide(4)"></span>
-                            <span class="dot" onclick="currentSlide(5)"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Nederlands · A0 → A2+</p>
+      <h1>Dutch, from your first <em>hallo</em> to A2+.</h1>
+      <p class="lead">63 lessons that build on each other, native audio for every word, and answers you write yourself, checked by Jev. Free, in your browser, on any phone or laptop.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://dkealvaro.github.io/LLMers-app/">Start learning</a>
+        <a class="textlink" href="#lesson">How a lesson works</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <figure class="phone phone-back"><img src="assets/app/words.png" width="780" height="1688" alt="" loading="lazy"></figure>
+      <figure class="phone phone-front"><img src="assets/app/home.png" width="780" height="1688" alt="LLMers home screen showing the lesson route" fetchpriority="high"></figure>
+    </div>
+  </div>
+</section>
 
+<section id="lesson" class="section">
+  <div class="wrap">
+    <h2>One lesson, five stops</h2>
+    <ol class="line">
+      <li style="--c:#E4572E"><h3>Words</h3><p>Meet 20–30 new words and phrases, each with native audio and an example.</p></li>
+      <li style="--c:#2F6FB5"><h3>Grammar</h3><p>One short note at a time, with tables and spoken examples.</p></li>
+      <li style="--c:#2E9E5B"><h3>Dialogue</h3><p>See everything in a real scene: a café, the doctor, the gemeente.</p></li>
+      <li style="--c:#E9A23B"><h3>Practice</h3><p>About 20 exercises, from matching to writing whole sentences.</p></li>
+      <li style="--c:#8E5BD8"><h3>Talk</h3><p>A roleplay where you answer freely and get corrected on the spot.</p></li>
+    </ol>
+    <div class="shots">
+      <figure><div class="phone"><img src="assets/app/words.png" width="780" height="1688" alt="Words step with native audio" loading="lazy"></div><figcaption>Words</figcaption></figure>
+      <figure><div class="phone"><img src="assets/app/grammar.png" width="780" height="1688" alt="Grammar step with a table" loading="lazy"></div><figcaption>Grammar</figcaption></figure>
+      <figure><div class="phone"><img src="assets/app/talk.png" width="780" height="1688" alt="Talk step, a roleplay conversation" loading="lazy"></div><figcaption>Talk</figcaption></figure>
+    </div>
+  </div>
+</section>
 
+<section class="section split">
+  <div class="wrap split-grid">
+    <div>
+      <h2>Corrections that actually explain</h2>
+      <p class="body">Type your own Dutch. Jev, a typed classifier, decides if it is right, spots a typo or the exact word that is wrong, and picks which common mistake you made, so the explanation you see was written for that exercise. No chatbot guessing at your grammar.</p>
+    </div>
+    <figure class="phone phone-single"><img src="assets/app/feedback.png" width="780" height="1688" alt="Feedback explaining a specific mistake" loading="lazy"></figure>
+  </div>
+</section>
 
+<section class="section teach">
+  <div class="wrap">
+    <h2>Teach before test</h2>
+    <p class="body">You start knowing nothing, so every word you read, hear or have to write was taught first. We check this mechanically for all 63 lessons: no surprise vocabulary, ever.</p>
+    <dl class="stats">
+      <div><dt>lessons</dt><dd>63</dd></div>
+      <div><dt>words</dt><dd>1,600</dd></div>
+      <div><dt>exercises</dt><dd>1,300</dd></div>
+    </dl>
+  </div>
+</section>
 
-    </main>
+<section class="section">
+  <div class="wrap">
+    <h2>The route</h2>
+    <ol class="route">
+      <li style="--c:#E4572E"><span class="num">1</span><span class="t"><b>Eerste woorden</b><small>First words</small></span><span class="chip">A0</span></li>
+      <li style="--c:#2F6FB5"><span class="num">2</span><span class="t"><b>Over mij</b><small>All about me</small></span><span class="chip">A1</span></li>
+      <li style="--c:#2E9E5B"><span class="num">3</span><span class="t"><b>Eten en boodschappen</b><small>Food and shopping</small></span><span class="chip">A1</span></li>
+      <li style="--c:#E9A23B"><span class="num">4</span><span class="t"><b>Thuis en in de stad</b><small>Home and town</small></span><span class="chip">A1</span></li>
+      <li style="--c:#8E5BD8"><span class="num">5</span><span class="t"><b>Vrije tijd</b><small>Free time</small></span><span class="chip">A1</span></li>
+      <li style="--c:#D9467A"><span class="num">6</span><span class="t"><b>Gezondheid</b><small>Health and feelings</small></span><span class="chip">A1</span></li>
+      <li style="--c:#159A8C"><span class="num">7</span><span class="t"><b>Het verleden</b><small>Talking about the past</small></span><span class="chip">A2</span></li>
+      <li style="--c:#3E5BE0"><span class="num">8</span><span class="t"><b>Werk en studie</b><small>Work and study</small></span><span class="chip">A2</span></li>
+      <li style="--c:#A8613A"><span class="num">9</span><span class="t"><b>Wonen</b><small>Living in the Netherlands</small></span><span class="chip">A2</span></li>
+      <li style="--c:#0E9CC9"><span class="num">10</span><span class="t"><b>Op reis</b><small>Travel</small></span><span class="chip">A2</span></li>
+      <li style="--c:#C2283A"><span class="num">11</span><span class="t"><b>Meningen</b><small>Opinions and society</small></span><span class="chip">A2+</span></li>
+      <li style="--c:#25324D"><span class="num">12</span><span class="t"><b>Eindstation A2+</b><small>Putting it all together</small></span><span class="chip">A2+</span></li>
+    </ol>
+  </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <div class="google-play-badge footer-badge">
-                <img src="assets/google-play-badge-coming-soon.webp" alt="Coming Soon on Google Play" class="play-badge-img">
-            </div>
-            <p>&copy; 2025 LLMers</p>
-        </div>
-    </footer>
+<section class="section">
+  <div class="wrap">
+    <figure class="desktop">
+      <img src="assets/app/desktop.png" width="1440" height="900" alt="LLMers on a laptop screen" loading="lazy">
+      <figcaption>Works on your laptop too. Your progress stays on your device.</figcaption>
+    </figure>
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<section class="final">
+  <div class="wrap final-in">
+    <p class="final-title">Klaar? Let's go.</p>
+    <a class="btn" href="https://dkealvaro.github.io/LLMers-app/">Start learning</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>LLMers · Open source:
+      <a href="https://github.com/DKeAlvaro/LLMers-app">LLMers-app</a>,
+      <a href="https://github.com/DKeAlvaro/LLMers-langs">LLMers-langs</a>,
+      <a href="https://github.com/DKeAlvaro/LLMers-web">LLMers-web</a>
+    </p>
+  </div>
+</footer>
+<script src="script.js" defer></script>
 </body>
 </html>
